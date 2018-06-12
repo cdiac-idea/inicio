@@ -12,6 +12,7 @@
 <title>CDIAC: IDEA</title>
 <meta name="revisit-after" content="1 hour">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
+<meta name="keywords" content="Información ambiental, Indicadores ambientales,  Manizales, Caldas, Calidad del aire, Clima, Aguas subterraneas, Red freatimétrica, Meteorología, Hidrometeorología,  boletin, datos, Temperatura, Radiación solar, Humedad relativa, Dirección del viento, Velocidad del viento, Evapotranspiración, Presión, Índice de Aridez, Precipitación,  ICA, Material particulado, Ozono, Dióxido de Azufre, Monóxido de carbono, Límites normados, Emisiones Vehiculares, Emisiones industriales, contaminación atmosférica, Universidad Nacional, Corpocaldas, Máximos, Mínimos, promedios, Emisiones atmosféricas, Gases de efecto invernadero, GEI, Centro de datos">
 <base href="">
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
