@@ -18,17 +18,14 @@
 <div class="breadcrumb-class">
     Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Datos </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Estructura de Datos</b>
 </div><br><br><br><br><br><br><br><br><br>
-<div style="float: right; margin-right: -50px; margin-top: -100px;">
+<div class="corpoest">
   <a href="http://www.corpocaldas.gov.co"><img src="imagenes/corpocaldas.png" width="250"></a>
 </div>
-<div style="float:right;
-margin-right: 200px;
-margin-top: -130px;  
-    width: 700px;">
+<div class="estructura">
 
-    <span style="font-size:17.0pt;line-height:107%; color:#990000;mso-fareast-language:ES-CO"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
+    <span class="titulo"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
 
-    <h3><p style="text-align: justify;"> Actualmente se tiene un histórico de datos meteorológicos e hidrometeorológicos provenientes de estaciones ubicadas en todo el departamento de Caldas, estas estaciones, según su tipo, miden y entregan información de las siguientes variables: <br><br> * Precipitación. <br> * Temperatura del aire. <br> * Humedad relativa. <br> * Velocidad del viento. <br> * Dirección del viento. <br> * Presión barométrica. <br> * Radiación solar. <br> * Evapotranspiración. <br> * Nivel. <br> * Caudal. <br><br> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables: <br><br> * Material Particulado menor a 10 micras. <br> * Material Particulado menor a 2,5 micras. <br> * Monóxido de carbono. <br> * Dióxido de azufre. <br></p> * Ozono </h3>
+    <h3><p class="align-justify"> Actualmente se tiene un histórico de datos meteorológicos e hidrometeorológicos provenientes de estaciones ubicadas en todo el departamento de Caldas, estas estaciones, según su tipo, miden y entregan información de las siguientes variables: <br><br> * Precipitación. <br> * Temperatura del aire. <br> * Humedad relativa. <br> * Velocidad del viento. <br> * Dirección del viento. <br> * Presión barométrica. <br> * Radiación solar. <br> * Evapotranspiración. <br> * Nivel. <br> * Caudal. <br><br> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables: <br><br> * Material Particulado menor a 10 micras. <br> * Material Particulado menor a 2,5 micras. <br> * Monóxido de carbono. <br> * Dióxido de azufre. <br></p> * Ozono </h3>
 <p> <br> </p></div>
 
 </main>

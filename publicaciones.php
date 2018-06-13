@@ -18,12 +18,10 @@
 <div class="breadcrumb-class">
     Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">DE INTERÉS</a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Publicaciones</b>
 </div>
-<div style="float: right; margin-right: -50px;">
+<div id="corpopubli">
   <a href="http://www.corpocaldas.gov.co"><img src="imagenes/corpocaldas.png" width="250"></a>
 </div>
-<div style="margin-left:300px;
-    padding: 2 2 2 2px; 
-    width: 600px;">
+<div id="publicaciones">
 <h2>Publicaciones</h2><br>
 <h5><strong>Algunos trabajos realizados en el marco del proyecto</strong></h5>
 <h4>---------------------------------------------------------------------------------------------</h4>
