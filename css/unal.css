@@ -1226,3 +1226,179 @@ background-image: url(../imagenes/fondo4.jpg);
   margin: 10 0 10 0px; 
 }
 
+.viñeta{
+  font-size:14.0pt;
+  line-height:150%;
+  font-family:Wingdings;
+  mso-fareast-font-family: Wingdings;
+  mso-bidi-font-family:Wingdings;
+  mso-fareast-language:ES-CO;
+}
+
+.posicion{
+  margin-top:15.0pt;
+  margin-right:0cm; 
+  margin-bottom:7.5pt;
+  margin-left:36.0pt;
+  mso-add-space:auto;
+  text-align:justify; 
+  text-indent:-18.0pt;
+  line-height:150%;
+  mso-outline-level:3;
+  mso-list:l0 level1 lfo1;
+}
+
+.imagenes{
+  float:right;
+  margin-right: 200px;
+  width: 700px;
+}
+
+.corpocaldas{
+  float: right; 
+  margin-top: -900px; 
+  margin-left: 1000px;
+}
+
+#imagen1{
+float: right;
+margin-right: -180px; 
+margin-top: 103px;
+}
+
+#imagen2{
+float: right;
+margin-right: -300px;
+margin-top: 250px;
+}
+
+.contacto{
+  margin-left: 200px;
+    width: 600px; 
+}
+
+.titulo{
+  font-size:17.0pt;
+  line-height:107%; 
+  color:#990000;
+  mso-fareast-language:ES-CO;
+}
+
+.fotosconvenio{
+  margin-left: 170px;
+}
+
+.divconvenio{
+
+    margin-left: 170px; 
+    padding: 4 4 4 4px; 
+    width: 700px;
+}
+.corpoenlaces{
+float:right;
+margin-right: -1400px;
+margin-top: 20px;  
+width: 700px;
+}
+.pagenlaces{
+  float:right;
+margin-right: 200px;
+margin-top: 40px;  
+    width: 700px;
+}
+
+.corpoest{
+  float: right; 
+  margin-right: -50px; 
+  margin-top: -100px;
+}
+
+.estructura{
+  float:right;
+margin-right: 200px;
+margin-top: -130px;  
+    width: 700px;
+}
+
+#tablabase, #tablabase tr, #tablabase th,#tablabase td{
+  border-collapse: collapse;
+  border: #94B43B 2px solid;
+  border-spacing:30px;
+  
+  text-align: center;
+}
+
+.colortabla{
+  background-color: #94B43B;
+}
+.corpodatos{
+  float: right; 
+  margin-right: -50px;
+}
+
+.divtabla{
+  float:right;
+margin-left: 100px; 
+margin-right: 200px;
+margin-top: -130px;  
+    width: 700px;
+}
+
+#fotohistoria{
+  float: right; 
+  padding: 20px;
+}
+#corpohistoria{
+  float:right;
+margin-top: -850px;  
+    width: 120px;
+}
+
+#principal{
+background-image: url(../imagenes/fondo4.jpg);
+}
+
+#historia{
+   margin-left: 250px;
+    padding: 2 2 2 2px; 
+    width: 600px;
+}
+
+#personas{
+  margin-left: 250px;
+    padding: 2 2 2 2px; 
+    width: 600px;
+}
+
+#corpopersonas{
+  float: right; 
+  margin-right: -50px;
+}
+
+#corpopubli{
+  float: right; 
+  margin-right: -50px;
+}
+#publicaciones{
+  margin-left:300px;
+    padding: 2 2 2 2px; 
+    width: 600px;
+}
+
+#bodycdiac{
+  margin: 10 0 10 0px;
+}
+
+.cdiac{
+  text-align: justify;
+  width: 700px;
+}
+
+#ambiente{
+  float: left; 
+  padding: 20px;
+}
+
+#bodyhistoria{
+  margin: 10 0 10 0px; 
+}
