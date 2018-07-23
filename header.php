@@ -84,6 +84,7 @@
 		<ul class="dropdown-menu dropItem-16">
 			<li><a href="fuentes-de-datos.php" >Fuentes de datos</a><span class="caret-right"></span></li>
 			<li><a href="estructura-de-datos.php" >Estructura de datos</a><span class="caret-right"></span></li>
+			<li><a href="mapas.php" >Mapas de redes de monitoreo</a><span class="caret-right"></span></li>
 		</ul>
 		</div>
 		<div class="btn-group"><div class="btn btn-default dropdown-toggle" data-toggle="dropdown">SISTEMA INDICADORES Y CONSULTAS<span class="caret"></span></div>

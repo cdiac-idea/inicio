@@ -11,8 +11,8 @@
             <a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
             <a href="http://unal.edu.co/siga/" target="_top">Calidad</a>
             <a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
-			</nav>
-			<nav class="col-md-3 col-lg-3 col-sm-3 col-xs-4 col-xxs-6 gobiernoLinea">
+                  </nav>
+                  <nav class="col-md-3 col-lg-3 col-sm-3 col-xs-4 col-xxs-6 gobiernoLinea">
             <a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
             <a href="index.html#">Mapa del sitio</a>
             <a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
@@ -23,39 +23,39 @@
             <a href="index.html#">Contáctenos</a>
             <a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
             <a href="index.html#">Glosario</a>
-			</nav>
-			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 col-xxs-12 footer-info">
+                  </nav>
+                  <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 col-xxs-12 footer-info">
             <p class="col-sm-12 col-md-6 contacto">
-					<b>Contacto página web:</b><br/> Carrera 27 # 64-60 <br/> bloque I piso 5 <br/> Manizales, Colombia<br/>Linea 018000 916959<br> (+57) 8879300 Ext.50198 - 50317 -50347
+                              <b>Contacto página web:</b><br/> Carrera 27 # 64-60 <br/> bloque J piso 1 <br/> Manizales, Colombia<br/> (+57) 8879300 Ext.50337 - 50317
             </p>
             <p class="col-sm-12 col-md-6 derechos">
-					© Copyright 2014<br/> Algunos derechos reservados.<br/>
-					<a title="Comuníquese con el administrador de este sitio web" href="mailto:idea_man@unal.edu.co">idea_man@unal.edu.co</a><br/>
-					<a href="index.html#">Acerca de este sitio web</a><br/> Actualización:31/05/16
+                              © Copyright 2014<br/> Algunos derechos reservados.<br/>
+                              <a title="Comuníquese con el administrador de este sitio web" href="mailto:bharistizabalz@unal.edu.co">bharistizabalz@unal.edu.co</a><br/>
+                              <a href="index.html#">Acerca de este sitio web</a><br/> Actualización:31/05/16
             </p>
-			</div>
+                  </div>
 
-			<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
+                  <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
             <div class="col-xs-6 col-sm-12 col-md-6 no-padding">
-					<a class="col-xs-6 col-sm-12" href="http://www.orgulloun.unal.edu.co">
-						<img class="hidden-print" alt="Orgullo UN" src="images/log_orgullo.png" width="78" height="21" />
-						<img class="visible-print" alt="Orgullo UN" src="images/log_orgullo_black.png" width="94" height="37" />
-					</a>
+                              <a class="col-xs-6 col-sm-12" href="http://www.orgulloun.unal.edu.co">
+                                    <img class="hidden-print" alt="Orgullo UN" src="images/log_orgullo.png" width="78" height="21" />
+                                    <img class="visible-print" alt="Orgullo UN" src="images/log_orgullo_black.png" width="94" height="37" />
+                              </a>
 
-					<a class="col-xs-6 col-sm-12 imgAgencia" href="http://www.agenciadenoticias.unal.edu.co/inicio.html">
-						<img class="hidden-print" alt="Agencia de noticias" src="images/log_agenc.png" width="94" height="25" />
-						<img class="visible-print" alt="Agencia de noticias" src="images/log_agenc_black.png" width="94" height="37" />
-					</a>
+                              <a class="col-xs-6 col-sm-12 imgAgencia" href="http://www.agenciadenoticias.unal.edu.co/inicio.html">
+                                    <img class="hidden-print" alt="Agencia de noticias" src="images/log_agenc.png" width="94" height="25" />
+                                    <img class="visible-print" alt="Agencia de noticias" src="images/log_agenc_black.png" width="94" height="37" />
+                              </a>
             </div>
             <div class="col-xs-6 col-sm-12 col-md-6 no-padding">
-					<a class="col-xs-6 col-sm-12" href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356">
-						<img alt="Trámites en línea" src="images/log_gobiern.png" width="67" height="51" />
-					</a>
+                              <a class="col-xs-6 col-sm-12" href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356">
+                                    <img alt="Trámites en línea" src="images/log_gobiern.png" width="67" height="51" />
+                              </a>
 
-					<a class="col-xs-6 col-sm-12" href="http://www.contaduria.gov.co/">
-						<img alt="Contaduría general de la republica" src="images/log_contra.png" width="67" height="51" />
-					</a>
+                              <a class="col-xs-6 col-sm-12" href="http://www.contaduria.gov.co/">
+                                    <img alt="Contaduría general de la republica" src="images/log_contra.png" width="67" height="51" />
+                              </a>
             </div>
 
-			</div>
+                  </div>
 </footer>

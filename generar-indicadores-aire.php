@@ -19,7 +19,7 @@
     Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Tutoriales </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Generar Indicadores de Calidad del Aire</b>
 </div>
 <br>
-<video src="videos/Ind. Aire 1080mpx.mp4" width = "80%" heigth = "100%"controls>
+<video src="Videos/aire.mp4" width = "80%" heigth = "100%"controls>
 </video>
 </main>
 

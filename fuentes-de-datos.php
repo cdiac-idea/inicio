@@ -1,6 +1,7 @@
 <?php
 /*HEAD DE LA PAGINA*/
-	include("head.php")
+	include("head.php");
+  include("config.php");
  ?>
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
@@ -14,16 +15,12 @@
  ?>
  <main class="detalle">
 <div class="breadcrumb-class">
-	Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">DATOS </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Fuentes de Datos</b>
+	Está en:&nbsp;<a href=<?php echo $cdiac; ?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">DATOS </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Fuentes de Datos</b>
 </div><br>
-<div style="float: right; margin-right: -50px;">
-  <a href="http://www.corpocaldas.gov.co"><img src="imagenes/corpocaldas.png" width="250"></a>
+<div class="corpodatos">
+  <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="250"></a>
 </div>
-<div style="float:right;
-margin-left: 100px; 
-margin-right: 200px;
-margin-top: -130px;  
-    width: 700px;">
+<div class="divtabla">
 <table class="table" id="tablabase">
   <thead>
     <tr class="colortabla">
@@ -239,16 +236,8 @@ margin-top: -130px;
 </table>
 <style>
 
-#tablabase, #tablabase tr, #tablabase th,#tablabase td{
-  border-collapse: collapse;
-  border: #94B43B 2px solid;
-  border-spacing:30px;
-  
-  text-align: center;
-}
-.colortabla{
-  background-color: #94B43B;
-}
+
+
 
 </style>
 </div>

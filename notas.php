@@ -1,6 +1,8 @@
 <?php
 /*HEAD DE LA PAGINA*/
-	include("head.php")
+	include("head.php");
+  include("config.php");  
+
  ?>
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
@@ -16,7 +18,7 @@
 
  <main class="detalle">
 <div class="breadcrumb-class">
-    Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">DE INTERÉS </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Notas</b>
+    Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">DE INTERÉS </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Notas</b>
 </div>
 
 <div class="container">
@@ -31,6 +33,10 @@
       </div>
       <div id="collapse1" class="panel-collapse collapse ">
         <div class="panel-body">
+          <h1><a href="http://agenciadenoticias.unal.edu.co/detalle/article/biga-calculadora-de-emisiones-de-la-vegetacion.html" target="_blank">BIGA, “calculadora” de emisiones de la vegetación</a></h1><br>
+          <h5><p>01 de junio de 2018 — Agencia de Noticias UN-</p></h5>
+          <h4><p>Aunque existen herramientas similares, la creada por ingenieras de la Universidad Nacional de Colombia (U.N.) Sede Manizales tiene en cuenta la topografía del terreno colombiano, lo que la convierte en una aliada ideal para estudiar la calidad del aire de las ciudades del país.</p></h4><br>
+
           <h1><a href="http://agenciadenoticias.unal.edu.co/detalle/article/acciones-colectivas-mejorarian-calidad-del-aire-en-manizales.html" target="_blank">Acciones colectivas mejorarían calidad del aire en Manizales</a></h1><br>
           <h5><p>30 de abril de 2018 — Agencia de Noticias UN-</p></h5>
           <h4><p>La autoridad ambiental no es la única encargada de disminuir los niveles de contaminación; esta tarea debe ser interinstitucional e incluso de la comunidad, con acciones sencillas, como por ejemplo abordar el bus en los paraderos.</p></h4><br>

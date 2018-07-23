@@ -1,6 +1,7 @@
 <?php
 /*HEAD DE LA PAGINA*/
-	include("head.php")
+	include("head.php");
+	include("config.php");
  ?>
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
@@ -16,11 +17,9 @@
 
  <main class="detalle">
 <div class="breadcrumb-class">
-    Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Personas </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Contacto</b>
+    Está en:&nbsp;<a href=<?php echo $cdiac; ?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Personas </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Contacto</b>
 </div>
-<div style="; 
-    margin-left: 200px;
-    width: 600px; ">
+<div class="contacto1">
 <h2>Contacto</h2><br>
 <h4>Si desea contactarse con nosotros, por favor utilice la siguiente información:</h4>
 <h3>----------------------------------------------------------------------------------</h3><br>
@@ -49,11 +48,9 @@
 <h4>Departamento de Informática y Computación</h4>
 <h4>Correo Electrónico: <a href="#">ejhernandezl@unal.edu.co</a></h4><br><br>
 </div>
-<div style="float:right;
-margin-top: -1000px;
-margin-right: -60px;">
+<div class="corpocaldass">
 	
-	<a href=""><img src="imagenes/corpocaldas.png" width="270"></a>
+	<a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="270"></a>
 </div>
 
 </main>

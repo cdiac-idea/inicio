@@ -5,7 +5,7 @@
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body style="background-image: url(imagenes/fondo4.jpg);">
+<body id="principal">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 	include("header.php");
@@ -15,17 +15,17 @@
 
 <div>
  <main class="detalle">
-<div  style="float: right; margin-right: -180px; margin-top: 103px;">
+<div  id="imagen1">
         <a href="http://www.corpocaldas.gov.co/" target="_blank" >
           <svg width="93%" height="93%">
-               <image href="imagenes/1.png" width="250" height="100%" class="hidden-print"/>
+               <image href="imagenes/principio.png" width="250" height="100%" class="hidden-print"/>
              
 
           </svg>    
         </a>
 
 </div>
-<div style="float: right; margin-right: -300px; margin-top: 250px;">
+<div id="imagen2">
         <a href="http://cdiac.manizales.unal.edu.co/indicadores/public/index" target="_blank" >
           <svg width="93%" height="93%">
                <image href="imagenes/img_banner.png" width="250" height="100%" class="hidden-print"/>
@@ -34,7 +34,7 @@
           </svg>    
         </a>
 
-</div>
+</div>  
 </main>
 
 </div>

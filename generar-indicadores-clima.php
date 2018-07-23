@@ -19,7 +19,7 @@
     Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Tutoriales </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Generar Indicadores de Clima</b>
 </div>
 <br>
-<video src="videos/Ind. Clima1080mpx.mp4" width = "80%" heigth = "100%"controls>
+<video src="Videos/clima.mp4" width = "80%" heigth = "100%"controls>
 </video>
 </main>
 
