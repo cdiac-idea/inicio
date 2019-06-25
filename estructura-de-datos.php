@@ -1,84 +1,83 @@
-<<<<<<< HEAD
 <?php
 /*HEAD DE LA PAGINA*/
-	include("head.php");
-	include("config.php");
- ?>
+include("head.php");
+include("config.php");
+?>
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
 <body>
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
-	include("header.php");
+include("header.php");
 /*PESTAÑA SERVICIOS DEL LADO DERECHO DE LA PÁGINA*/
-	include("services.php");
- ?>
+include("services.php");
+?>
 
 <div>
- <main class="detalle">
-<div class="breadcrumb-class">
-    Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Datos </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Estructura de Datos</b>
-</div><br><br><br><br><br><br><br><br><br>
-<div class="corpoest">
-  <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="250"></a>
-</div>
-<div class="estructura">
+    <main class="detalle">
+        <div class="breadcrumb-class">
+            Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Datos </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Estructura de Datos</b>
+        </div><br><br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="estructura">
+                    <span class="titulo"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
+                    <p> Actualmente se tiene un histórico de datos meteorológicos e hidrometeorológicos provenientes de estaciones ubicadas en todo el departamento de Caldas, estas estaciones, según su tipo, miden y entregan información de las siguientes variables:
+                        <br>
+                        <br>
+                    <div class="col-xs-6">
+                        <ul class="data-structure">
+                            <li><img src="imagenes/precipitacion_ppt.png" width="50" height="50">Precipitación.</li>
+                            <br>
+                            <li><img src="imagenes/temperatura.png" width="50" height="50">Temperatura del aire.</li>
+                            <br>
+                            <li><img src="imagenes/humedad_relativa.png" width="50" height="50">Humedad relativa.</li>
+                            <br>
+                            <li><img src="imagenes/velocidad_viento.png" width="50" height="50">Velocidad del viento.</li>
+                            <br>
+                            <li><img src="imagenes/direccion_viento.png" width="50" height="50">Dirección del viento.</li>
+                        </ul>
+                    </div>
 
-    <span class="titulo"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
+                    <div class="col-xs-6">
+                        <ul class="data-structure">
+                            <li><img src="imagenes/presion_baro.png" width="50" height="50">Presión barométrica.</li>
+                            <br>
+                            <li><img src="imagenes/radiacion.png" width="50" height="50">Radiación solar.</li>
+                            <br>
+                            <li><img src="imagenes/evapotranspiracion.png" width="50" height="50">Evapotranspiración.</li>
+                            <br>
+                            <li><img src="imagenes/nivel.png" width="50" height="50">Nivel.</li>
+                            <br>
+                            <li><img src="imagenes/caudal.png" width="50" height="50">Caudal.</li>
+                        </ul>
+                        <br>
+                    </div>
 
-    <h3><p class="align-justify"> Actualmente se tiene un histórico de datos meteorológicos e hidrometeorológicos provenientes de estaciones ubicadas en todo el departamento de Caldas, estas estaciones, según su tipo, miden y entregan información de las siguientes variables: <br><br> * Precipitación. <br> * Temperatura del aire. <br> * Humedad relativa. <br> * Velocidad del viento. <br> * Dirección del viento. <br> * Presión barométrica. <br> * Radiación solar. <br> * Evapotranspiración. <br> * Nivel. <br> * Caudal. <br><br> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables: <br><br> * Material Particulado menor a 10 micras. <br> * Material Particulado menor a 2,5 micras. <br> * Monóxido de carbono. <br> * Dióxido de azufre. <br></p> * Ozono </h3>
-<p> <br> </p></div>
-
-</main>
+                    <p> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables:</p>
+                    <br>
+                    <ul>
+                        <li><img src="imagenes/m_particulado.png" width="50" height="50">Material Particulado menor a 10 micras.</li>
+                        <br>
+                        <li><img src="imagenes/m_particulado.png" width="50" height="50">Material Particulado menor a 2,5 micras.</li>
+                        <br>
+                        <li><img src="imagenes/m_particulado.png" width="50" height="50">Monóxido de carbono.</li>
+                        <br>
+                        <li><img src="imagenes/d_azufre.png" width="50" height="50">Dióxido de azufre.</li>
+                        <br>
+                        <li><img src="imagenes/ozono.png" width="50" height="50">Ozono</li>
+                    </ul>
+                    <p> <br> </p></div>
+            </div>
+        </div>
+    </main>
 
 </div>
 <?php
 /*PIE DE PÁGINA*/
-	include("footer.php")
- ?>
+include("footer.php")
+?>
 <script src="js/unal.js" type="text/javascript"></script>
 </body>
 </html>
-=======
-<?php
-/*HEAD DE LA PAGINA*/
-	include("head.php")
- ?>
-
-<!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
-
-<body>
-<?php
-/*ENCABEZADO DE LA PÁGINA*/
-	include("header.php");
-/*PESTAÑA SERVICIOS DEL LADO DERECHO DE LA PÁGINA*/
-	include("services.php");
- ?>
-
-<div>
- <main class="detalle">
-<div class="breadcrumb-class">
-    Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Datos </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Estructura de Datos</b>
-</div><br><br><br><br><br><br><br><br><br>
-<div class="corpoest">
-  <a href="http://www.corpocaldas.gov.co"><img src="imagenes/corpocaldas.png" width="250"></a>
-</div>
-<div class="estructura">
-
-    <span class="titulo"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
-
-    <h3><p class="align-justify"> Actualmente se tiene un histórico de datos meteorológicos e hidrometeorológicos provenientes de estaciones ubicadas en todo el departamento de Caldas, estas estaciones, según su tipo, miden y entregan información de las siguientes variables: <br><br> * Precipitación. <br> * Temperatura del aire. <br> * Humedad relativa. <br> * Velocidad del viento. <br> * Dirección del viento. <br> * Presión barométrica. <br> * Radiación solar. <br> * Evapotranspiración. <br> * Nivel. <br> * Caudal. <br><br> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables: <br><br> * Material Particulado menor a 10 micras. <br> * Material Particulado menor a 2,5 micras. <br> * Monóxido de carbono. <br> * Dióxido de azufre. <br></p> * Ozono </h3>
-<p> <br> </p></div>
-
-</main>
-
-</div>
-<?php
-/*PIE DE PÁGINA*/
-	include("footer.php")
- ?>
-<script src="js/unal.js" type="text/javascript"></script>
-</body>
-</html>
->>>>>>> 70f96a87b77b16ab98948d5c36aa2398aaed7b24

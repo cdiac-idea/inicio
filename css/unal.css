@@ -39,14 +39,31 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 
-
-a {
-  color: #94b43b;
+ a {
+  color:#50992E;
+}
+ a:hover {
+  color:#4b4b4b;
+  text-decoration:underline;
 }
 
-a:hover {
+.lista a{
+  color: #50992E;
+}
+
+.lista a:hover {
   text-decoration: underline;
-  color: #333333;
+  color: #4b4b4b;
+}
+.lista ul li{
+  list-style: disc;
+  color:#50992E;
+  border-bottom:1px dotted #969696;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.lista ul li:last-of-type {
+  border-bottom:none !important;
 }
 
 
@@ -550,7 +567,11 @@ main .breadcrumb-class a:hover {
 }
 
 main.detalle {
-  margin: 0 10% 50px 10%;
+
+  font-family: 'Asap', sans-serif;
+  font-size: 12pt;
+  line-height: 1.3;
+  padding: 0 10% 50px 10%;
 }
 
 
@@ -561,6 +582,7 @@ footer {
   color: #dddddd;
   padding: 15px 0 25px 0;
 }
+
 
 footer div.footer-info p {
   display: inline-block;
@@ -1084,15 +1106,25 @@ footer .logos {
 }
 
 #imagen1{
-float: right;
-margin-right: -180px; 
-margin-top: 103px;
+
+  float: right;
+  height: 120px;
+  width:340px;
+  background-color: white;
+  position: absolute;
+  top:17em;
+  right: 0;
 }
 
 #imagen2{
-float: right;
-margin-right: -300px;
-margin-top: 250px;
+  
+  float: right;
+  height: 120px;
+  width:340px;
+  background-color: white;
+  position: absolute;
+  top:30em;
+  right: 0;
 }
 
 .contacto1{
@@ -1178,8 +1210,19 @@ margin-top: -850px;
 }
 
 #principal{
-background-image: url(../imagenes/fondo4.jpg);
-}
+   background: url(../imagenes/fondo3.png);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+  transition: all 0.7s ease-out;
+   -webkit-transition: all 0.7s ease-out;
+   -moz-transition: all 0.7s  ease-out;
+   -o-transition: all 0.7s  ease-out;
+
+
+ }
+
+
 
 #historia{
    margin-left: 250px;
@@ -1226,179 +1269,8 @@ background-image: url(../imagenes/fondo4.jpg);
   margin: 10 0 10 0px; 
 }
 
-.viñeta{
-  font-size:14.0pt;
-  line-height:150%;
-  font-family:Wingdings;
-  mso-fareast-font-family: Wingdings;
-  mso-bidi-font-family:Wingdings;
-  mso-fareast-language:ES-CO;
-}
-
-.posicion{
-  margin-top:15.0pt;
-  margin-right:0cm; 
-  margin-bottom:7.5pt;
-  margin-left:36.0pt;
-  mso-add-space:auto;
-  text-align:justify; 
-  text-indent:-18.0pt;
-  line-height:150%;
-  mso-outline-level:3;
-  mso-list:l0 level1 lfo1;
-}
-
-.imagenes{
-  float:right;
-  margin-right: 200px;
-  width: 700px;
-}
-
-.corpocaldas{
-  float: right; 
-  margin-top: -900px; 
-  margin-left: 1000px;
-}
-
-#imagen1{
-float: right;
-margin-right: -180px; 
-margin-top: 103px;
-}
-
-#imagen2{
-float: right;
-margin-right: -300px;
-margin-top: 250px;
-}
-
-.contacto{
-  margin-left: 200px;
-    width: 600px; 
-}
-
-.titulo{
-  font-size:17.0pt;
-  line-height:107%; 
-  color:#990000;
-  mso-fareast-language:ES-CO;
-}
-
-.fotosconvenio{
-  margin-left: 170px;
-}
-
-.divconvenio{
-
-    margin-left: 170px; 
-    padding: 4 4 4 4px; 
-    width: 700px;
-}
-.corpoenlaces{
-float:right;
-margin-right: -1400px;
-margin-top: 20px;  
-width: 700px;
-}
-.pagenlaces{
-  float:right;
-margin-right: 200px;
-margin-top: 40px;  
-    width: 700px;
-}
-
-.corpoest{
-  float: right; 
-  margin-right: -50px; 
-  margin-top: -100px;
-}
-
-.estructura{
-  float:right;
-margin-right: 200px;
-margin-top: -130px;  
-    width: 700px;
-}
-
-#tablabase, #tablabase tr, #tablabase th,#tablabase td{
-  border-collapse: collapse;
-  border: #94B43B 2px solid;
-  border-spacing:30px;
-  
-  text-align: center;
-}
-
-.colortabla{
-  background-color: #94B43B;
-}
-.corpodatos{
-  float: right; 
-  margin-right: -50px;
-}
-
-.divtabla{
-  float:right;
-margin-left: 100px; 
-margin-right: 200px;
-margin-top: -130px;  
-    width: 700px;
-}
-
-#fotohistoria{
-  float: right; 
-  padding: 20px;
-}
-#corpohistoria{
-  float:right;
-margin-top: -850px;  
-    width: 120px;
-}
-
-#principal{
-background-image: url(../imagenes/fondo4.jpg);
-}
-
-#historia{
-   margin-left: 250px;
-    padding: 2 2 2 2px; 
-    width: 600px;
-}
-
-#personas{
-  margin-left: 250px;
-    padding: 2 2 2 2px; 
-    width: 600px;
-}
-
-#corpopersonas{
-  float: right; 
-  margin-right: -50px;
-}
-
-#corpopubli{
-  float: right; 
-  margin-right: -50px;
-}
-#publicaciones{
-  margin-left:300px;
-    padding: 2 2 2 2px; 
-    width: 600px;
-}
-
-#bodycdiac{
-  margin: 10 0 10 0px;
-}
-
-.cdiac{
-  text-align: justify;
-  width: 700px;
-}
-
-#ambiente{
-  float: left; 
-  padding: 20px;
-}
-
-#bodyhistoria{
-  margin: 10 0 10 0px; 
+.hv{
+  list-style: url('../imagenes/bullet2.png');
+  text-decoration: none !important;
+  color: #404040 !important;
 }

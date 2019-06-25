@@ -4,7 +4,12 @@
  ?>
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
-
+  <head>
+      <meta http-equiv="Expires" content="0">
+      <meta http-equiv="Last-Modified" content="0">
+      <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+  </head>
 <body id="principal">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
@@ -12,29 +17,25 @@
 /*PESTAÑA SERVICIOS DEL LADO DERECHO DE LA PÁGINA*/
 	include("services.php");
  ?>
+ <script type="text/javascript" src="js/fondo.js"></script>
 
 <div>
  <main class="detalle">
-<div  id="imagen1">
+
+     <div class="panel-body">
+
         <a href="http://www.corpocaldas.gov.co/" target="_blank" >
-          <svg width="93%" height="93%">
-               <image href="imagenes/principio.png" width="250" height="100%" class="hidden-print"/>
-             
 
-          </svg>    
+               <img onmouseover="this.src='imagenes/img_banner2.png';" onmouseout="this.src='imagenes/img_banner.png';" src="imagenes/img_banner.png"  alt="Corpocaldas" style=" top:23em;" class="img-rounded"  class="hidden-print"/>
+
         </a>
-
-</div>
-<div id="imagen2">
         <a href="http://cdiac.manizales.unal.edu.co/indicadores/public/index" target="_blank" >
-          <svg width="93%" height="93%">
-               <image href="imagenes/img_banner.png" width="250" height="100%" class="hidden-print"/>
-             
 
-          </svg>    
+               <img onmouseover="this.src='imagenes/principio2.png';" onmouseout="this.src='imagenes/principio.png';" src="imagenes/principio.png" alt="Sistema de indicadores ambientales" class="img-rounded" style="top:32em;" class="hidden-print"/>
+
         </a>
 
-</div>  
+     </div>
 </main>
 
 </div>

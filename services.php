@@ -6,7 +6,7 @@
 					<a href="http://correo.unal.edu.co" target="_blank"><img src="images/icnServEmail.png" width="32" height="32" alt="Correo Electrónico">Correo Electrónico</a>
             </li>
             <li>
-					<a href="http://www.sia.unal.edu.co" target="_blank"><img src="images/icnServSia.png" width="32" height="32" alt="Sistema de Información Académica">Sistema de Información Académica</a>
+					<a href="https://dninfoa.unal.edu.co/index.php" target="_blank"><img src="images/icnServSia.png" width="32" height="32" alt="Sistema de Información Académica">DNINFOA-SIA</a>
             </li>
             <li>
 					<a href="http://www.sinab.unal.edu.co" target="_blank"><img src="images/icnServLibrary.png" width="32" height="32" alt="Biblioteca">Biblioteca</a>

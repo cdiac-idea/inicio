@@ -1,3 +1,60 @@
 .art-postcontent{
 	text-align: justify;
 }
+.panel-body a img{
+	clear: both;
+	display: block;
+	z-index: 1;
+	margin: 0px;
+	float: right;
+	width:280px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	right: 0;
+
+}
+.imagenCdiac{
+	width: 300px;
+	position: center;
+	margin-left: 30px;
+	padding-right: 0px;
+	margin-top: 100px;
+}
+
+
+
+.titulo{
+	font-family: 'Asap', sans-serif;
+	font-style: italic;
+	font-size: 16pt;
+	color: #94B43B;
+}
+.div-modal{
+	border: solid;
+	border-color: #94B43B;
+	border-radius: 10px;
+}
+.ult-modal{
+	position: relative;
+	left:38%;
+}
+.title-modal{
+	font-family: 'Asap', sans-serif;
+	font-style: italic;
+	font-size: 16pt;
+	color: #555557;
+}
+.logosFinal{
+	margin-top: 60px;
+}
+.detalle ul li::before{
+	list-style-type: none;
+	font-size: 12pt;
+
+}
+
+
+.breadcrumb-class a{
+	font-weight: bold;
+}

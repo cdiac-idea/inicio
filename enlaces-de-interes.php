@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /*HEAD DE LA PAGINA*/
 	include("head.php");
@@ -23,8 +22,11 @@
 <div class="pagenlaces">
 
 <span class="titulo	"><strong>ENLACES DE INTERES</strong></span><br><br>
-<h4><a href="http://idea.manizales.unal.edu.co/index.php/estado-tiempo-manizales" target="blank">Análisis del estado del tiempo en Manizales y Caldas</a></h4><br>
-<h4 class="text-left">Datos meteorológicos e hidrometeorológicos en tiempo real; la información se encuentra sujeta a verificación. </h4>
+<h4><a href="http://cdiac.manizales.unal.edu.co/sistema-alerta-temprana/MapaManizales/" target="blank">Análisis del estado del tiempo en Manizales y Caldas</a></h4><br>
+<h4 class="text-left">Datos meteorológicos e hidrometeorológicos en tiempo real; la información se encuentra sujeta a verificación. </h4><br>
+<h4><a href="http://breathelife2030.org/breathelifecity/caldas-colombia/" target="blank">Caldas Colombia BREATHELIFE CITY</a></h4><br>
+<h4><a href="https://join.fz-juelich.de/accounts/login/#" target="blank">Acceso a datos de Ozono troposférico a nivel mundial - proyecto TOAR</a></h4><br>
+<h4><a href="http://cdiac.manizales.unal.edu.co/inicio/Instructivos/Instructivo Visualización de Datos TOAR.pdf" title="Opens external link in new window" target="_blank" class="external-link-new-window">Instructivo de Visualización de Datos TOAR</a></h4><br>
 </div>
 <div class="corpoenlaces" >
 <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="200"></a>
@@ -40,45 +42,3 @@
 <script src="js/unal.js" type="text/javascript"></script>
 </body>
 </html>
-=======
-<?php
-/*HEAD DE LA PAGINA*/
-	include("head.php")
- ?>
-
-<!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
-
-<body>
-<?php
-/*ENCABEZADO DE LA PÁGINA*/
-	include("header.php");
-/*PESTAÑA SERVICIOS DEL LADO DERECHO DE LA PÁGINA*/
-	include("services.php");
- ?>
-
-<div>
- <main class="detalle">
-<div class="breadcrumb-class">
-    Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">DE INTERÉS </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Enlaces de Interés</b>
-</div>
-<div class="pagenlaces">
-
-<span class="titulo	"><strong>ENLACES DE INTERES</strong></span><br><br>
-<h4><a href="http://idea.manizales.unal.edu.co/index.php/estado-tiempo-manizales" target="blank">Análisis del estado del tiempo en Manizales y Caldas</a></h4><br>
-<h4 class="text-left">Datos meteorológicos e hidrometeorológicos en tiempo real; la información se encuentra sujeta a verificación. </h4>
-</div>
-<div class="corpoenlaces" >
-<a href="http://www.corpocaldas.gov.co" target="_blank"><img src="imagenes/corpocaldas.png" width="200"></a>
-</div>
-
-</main>
-
-</div>
-<?php
-/*PIE DE PÁGINA*/
-	include("footer.php")
- ?>
-<script src="js/unal.js" type="text/javascript"></script>
-</body>
-</html>
->>>>>>> 70f96a87b77b16ab98948d5c36aa2398aaed7b24
