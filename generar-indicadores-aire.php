@@ -5,7 +5,7 @@
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 	include("header.php");
@@ -14,11 +14,15 @@
  ?>
 
 <div>
- <main class="detalle">
+ <main class="detalle back-white">
 <div class="breadcrumb-class">
     Está en:&nbsp;<a href="http://idea.manizales.unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="http://localhost/gtanuevo/hidraulica" target="_self" title="La Universidad">Tutoriales </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Generar Indicadores de Calidad del Aire</b>
 </div>
 <br>
+     <div class="corpoenlaces" >
+         <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/Corpologo.png" width="200"></a>
+     </div>
+     <br>
 <video src="Videos/aire.mp4" width = "80%" heigth = "100%"controls>
 </video>
 </main>

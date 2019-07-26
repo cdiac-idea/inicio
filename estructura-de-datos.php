@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 include("header.php");
@@ -15,11 +15,16 @@ include("services.php");
 ?>
 
 <div>
-    <main class="detalle">
+    <main class="detalle back-white">
         <div class="breadcrumb-class">
             Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Datos </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Estructura de Datos</b>
-        </div><br><br><br><br><br><br><br>
+        </div>
+        <div class="corpoenlaces">
+            <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/Corpologo.png" width="200"></a>
+        </div>
+        <br><br><br><br><br><br><br><br>
         <div class="container">
+
             <div class="row">
                 <div class="estructura">
                     <span class="titulo"><strong>ESTRUCTURA DE DATOS</strong></span><br><br>
@@ -58,9 +63,9 @@ include("services.php");
                     <p> Manizales cuenta con una Red de Monitoreo de Calidad del Aire; actualmente se está trabajando en el procesamiento, almacenamiento y análisis de los datos de las siguientes variables:</p>
                     <br>
                     <ul>
-                        <li><img src="imagenes/m_particulado.png" width="50" height="50">Material Particulado menor a 10 micras.</li>
+                        <li><img src="imagenes/mp_10.png" width="50" height="50">Material Particulado menor a 10 micras.</li>
                         <br>
-                        <li><img src="imagenes/m_particulado.png" width="50" height="50">Material Particulado menor a 2,5 micras.</li>
+                        <li><img src="imagenes/mp_2_5.png" width="50" height="50">Material Particulado menor a 2,5 micras.</li>
                         <br>
                         <li><img src="imagenes/m_particulado.png" width="50" height="50">Monóxido de carbono.</li>
                         <br>

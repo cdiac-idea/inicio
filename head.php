@@ -28,9 +28,10 @@
 
 
 <script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/unal.js?v=1" type="text/javascript"></script>
+<script src="js/unal.js?v=2" type="text/javascript"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>jQuery(document).ready(function($){$('select','form').selectpicker();})</script>
 <!-- fin acciones para formulario -->
 

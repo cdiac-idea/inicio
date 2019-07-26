@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body id="bodycdiac">
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 include("header.php");
@@ -17,6 +17,7 @@ include("services.php");
     <div class="breadcrumb-class">
         Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">SOBRE CDIAC </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>CDIAC</b>
     </div>
+
     <div>
 
         <br>
@@ -45,7 +46,7 @@ include("services.php");
                 <br><br>
                 <b class="titulo">Importancia de CDIAC</b>
                 <br><br>
-
+                <div class="CDIAC1">
                 <ul>
                     <li><span>Mejora el acceso a la información</span></li>
                     <li><span>Reduce las diferencias en materia de datos</span></li>
@@ -55,7 +56,7 @@ include("services.php");
                     <li><span>Genera insumos para la toma de decisiones del departamento</span></li>
                     <li><span>Centraliza y procesa grandes volúmenes de información</span></li>
                 </ul>
-
+                </div>
 
             </div>
             <div class="col-md-5 img-fluid imagenCdiac" >
@@ -67,15 +68,16 @@ include("services.php");
     <br>
 
 
-    <div class ="row  align-items-end justify-content-md-center logosFinal" >
-        <div class="col-md-6 col-md-offset-3 mx-auto d-block img-fluid" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><a href=<?php echo $unal; ?> target="_blank"><img src="imagenes/LogosMini/un.png" width="170" height="80" ></a></div>
 
-            <img src="imagenes/unal.png" width="100" >
-            <img src="imagenes/corpocaldas.png" width="100">
-            <img src="imagenes/GAIA.png" width="100">
-            <img src="imagenes/gtaih.png" width="100">
+            <div class="col-md-3"><a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/LogosMini/Corpocaldas.png" width="170" height="100"></a></div>
+
+            <div class="col-md-3"><a href=<?php echo $gaia; ?> target="_blank"><img src="imagenes/LogosMini/Gaia.png" width="170" height="100"></a></div>
+
+            <div class="col-md-3"><a href=<?php echo $gtahidraulica;?> target="_blank"><img src="imagenes/LogosMini/IHA.png" width="170" height="100px"></a></div>
         </div>
-
     </div>
 
 

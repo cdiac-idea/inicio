@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 include("header.php");
@@ -15,7 +15,7 @@ include("services.php");
 ?>
 
 <div>
-    <main class="detalle">
+    <main class="detalle back-white">
         <div class="breadcrumb-class">
             Está en:&nbsp;<b>Mapa del sitio</b>
         </div><br><br>

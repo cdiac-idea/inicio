@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 include("header.php");
@@ -19,14 +19,15 @@ include("services.php");
     <div class="breadcrumb-class">
         Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">DE INTERÉS</a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Aforos</b>
     </div>
-    <div id="corpopubli">
-        <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="250"></a>
+    <div class="corpoenlaces" >
+        <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/Corpologo.png" width="200"></a>
     </div>
     <br>
     <div class="titulo">
         <h2><strong>INFORMACIÓN SOBRE AFOROS REALIZADOS A LAS ESTACIONES HIDROMETEREOLÓGICAS</strong></h2>
     </div>
     <br><br>
+    <br><br><br>
     <div class="container">
         <br>
         <div class="row">

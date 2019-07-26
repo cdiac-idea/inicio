@@ -1151,9 +1151,6 @@ footer .logos {
 }
 .corpoenlaces{
 float:right;
-margin-right: -1400px;
-margin-top: 20px;  
-width: 700px;
 }
 .pagenlaces{
   float:right;
@@ -1224,10 +1221,12 @@ margin-top: -850px;
 
 
 
+
 #historia{
    margin-left: 250px;
     padding: 2 2 2 2px; 
     width: 600px;
+
 }
 
 #personas{
@@ -1251,9 +1250,6 @@ margin-top: -850px;
     width: 600px;
 }
 
-#bodycdiac{
-  margin: 10 0 10 0px;
-}
 
 .cdiac{
   text-align: justify;
@@ -1265,12 +1261,16 @@ margin-top: -850px;
   padding: 20px;
 }
 
-#bodyhistoria{
-  margin: 10 0 10 0px; 
+#bodyPages{
+  margin: 10 0 10 0px;
+  background-color: white;
 }
 
 .hv{
   list-style: url('../imagenes/bullet2.png');
   text-decoration: none !important;
   color: #404040 !important;
+}
+.entidades img{
+  height: 70px;
 }

@@ -6,7 +6,7 @@
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 	include("header.php");
@@ -15,43 +15,66 @@
  ?>
 
 
- <main class="detalle">
+ <main class="detalle back-white">
 <div class="breadcrumb-class">
     Está en:&nbsp;<a href=<?php echo $cdiac; ?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Personas </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Contacto</b>
 </div>
-<div class="contacto1">
-<h2>Contacto</h2><br>
-<h4>Si desea contactarse con nosotros, por favor utilice la siguiente información:</h4>
-<h3>----------------------------------------------------------------------------------</h3><br>
-<h2><strong>CORPORACIÓN AUTÓNOMA REGIONAL DE CALDAS - CORPOCALDAS</strong></h2>
-<br>
-<h3><strong>- Lina Marcela Quintero Velásquez</strong></h3>
-<h4>Subdirección de Planificación Ambiental del Territorio </h4>
-<h4>Correo Electrónico: <a href="#">linamquintero@corpocaldas.gov.co</a></h4><br><br>
-<h3><strong>- Luz Adriana Ramírez López</strong></h3>
-<h4>Subdirección de Planificación Ambiental del Territorio </h4>
-<h4>Correo Electrónico: <a href="#">luzaramirez@corpocaldas.gov.co </a></h4>
-<h3>----------------------------------------------------------------------------------</h3><br>
-<h2><strong>UNIVERSIDAD NACIONAL DE COLOMBIA SEDE MANIZALES</strong></h2><br><br>
-<h3><u>Grupo de Trabajo Académico en Ingeniería Hidráulica y Ambiental - GTA IHA</u></h3><br><br>
-<h3><strong>- Jeannette Zambrano </strong></h3>
-<h4>Departamento de Ingeniería Civil </h4>
-<h4>Correo Electrónico: <a href="#">jdzambranon@unal.edu.co </a></h4><br><br>
-<h3><strong>- Jade Alexandra Li Ramírez </strong></h3>
-<h4>Instituto de Estudios Ambientales de la Universidad Nacional de Colombia IDEA </h4>
-<h4>Correo Electrónico: <a href="#">jalir@unal.edu.co </a></h4><br><br><br>
-<h3><u>Grupo de Ambientes Inteligentes Adaptativos - GAIA</u></h3><br><br>
-<h3><strong>- Néstor Darío Duque Méndez </strong></h3>
-<h4>Departamento de Informática y Computación</h4>
-<h4>Correo Electrónico: <a href="#">ndduqueme@unal.edu.co</a></h4><br><br>
-<h3><strong>- Emilcy Juliana Hernández Leal </strong></h3>
-<h4>Departamento de Informática y Computación</h4>
-<h4>Correo Electrónico: <a href="#">ejhernandezl@unal.edu.co</a></h4><br><br>
-</div>
-<div class="corpocaldass">
-	
-	<a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="270"></a>
-</div>
+     <br><br>
+     <div class="row">
+         <div class="col-md-12 ">
+             <div class="corpoenlaces">
+                 <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/Corpologo.png" width="200"></a>
+             </div>
+             <b class="titulo">
+                 CONTACTO<br><br>
+             </b>
+             <p class="text-left"> Si desea contactarse con nosotros, por favor utilice la siguiente información:</p>
+             <br>
+             <b class="titulo">
+                 CORPORACIÓN AUTÓNOMA REGIONAL DE CALDAS - CORPOCALDAS<br><br>
+             </b>
+             <p class="text-left"><strong> - Lina Marcela Quintero Velásquez</strong></p>
+             <p class="text-left">Subdirección de Planificación Ambiental del Territorio </p>
+             <p class="text-left">Correo Electrónico:<a href="#">linamquintero@corpocaldas.gov.co</a></p>
+             <br><br>
+
+             <p class="text-left"><strong> - Luz Adriana Ramírez López</strong></p>
+             <p class="text-left">Subdirección de Planificación Ambiental del Territorio </p>
+             <p class="text-left">Correo Electrónico:<a href="#">luzaramirez@corpocaldas.gov.co </a></p>
+             <br>
+             <h3>--------------------------------------------------------------------------------------</h3><br>
+
+             <b class="titulo">
+                 UNIVERSIDAD NACIONAL DE COLOMBIA SEDE MANIZALES<br><br>
+             </b>
+             <h3><strong>Grupo de Trabajo Académico en Ingeniería Hidráulica y Ambiental - GTA IHA</strong></h3><br><br>
+             <p class="text-left"><strong> - Jeannette Zambrano</strong></p>
+             <p class="text-left">Departamento de Ingeniería Civil </p>
+             <p class="text-left">Correo Electrónico:<a href="#"> jdzambranon@unal.edu.co </a></p>
+             <br><br>
+
+             <p class="text-left"><strong> - Jade Alexandra Li Ramírez</strong></p>
+             <p class="text-left">Instituto de Estudios Ambientales de la Universidad Nacional de Colombia IDEA </p>
+             <p class="text-left">Correo Electrónico:<a href="#">jalir@unal.edu.co  </a></p>
+             <br><br>
+
+             <h3><strong>Grupo de Ambientes Inteligentes Adaptativos - GAIA</strong></h3><br><br>
+
+             <p class="text-left"><strong> - Néstor Darío Duque Méndez </strong></p>
+             <p class="text-left">Departamento de Informática y Computación </p>
+             <p class="text-left">Correo Electrónico:<a href="#"> ndduqueme@unal.edu.co </a></p>
+             <br><br>
+
+             <p class="text-left"><strong> - Emilcy Juliana Hernández Leal </strong></p>
+             <p class="text-left">Departamento de Informática y Computación</p>
+             <p class="text-left">Correo Electrónico:<a href="#">ejhernandezl@unal.edu.co </a></p>
+             <br><br>
+
+
+
+
+
+
 
 </main>
 

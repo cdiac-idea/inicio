@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body id="bodyhistoria">
+<body id="bodyPages">
 <?php
 /*ENCABEZADO DE LA PÁGINA*/
 include("header.php");
@@ -18,7 +18,6 @@ include("services.php");
     <div class="breadcrumb-class">
         Está en:&nbsp;<a href=<?php echo $cdiac; ?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">SOBRE CDIAC </a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Historia</b>
     </div>
-
 
     <div class="row">
         <div class="col-md-7 ">
@@ -44,16 +43,20 @@ include("services.php");
             <img src="imagenes/sobreCDIAC.png" width="300">
 
         </div>
-        <div class ="row  align-items-end justify-content-md-center logosFinal" >
-            <div class="col-md-6 col-md-offset-3 mx-auto d-block img-fluid" >
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><a href=<?php echo $unal; ?> target="_blank"><img src="imagenes/LogosMini/un.png" width="170" height="80" ></a></div>
 
-                <img src="imagenes/unal.png" width="100" >
-                <img src="imagenes/corpocaldas.png" width="100">
-                <img src="imagenes/GAIA.png" width="100">
-                <img src="imagenes/gtaih.png" width="100">
-            </div>
+            <div class="col-md-3"><a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/LogosMini/Corpocaldas.png" width="170" height="100"></a></div>
 
+            <div class="col-md-3"><a href=<?php echo $gaia; ?> target="_blank"><img src="imagenes/LogosMini/Gaia.png" width="170" height="100"></a></div>
+
+            <div class="col-md-3"><a href=<?php echo $gtahidraulica;?> target="_blank"><img src="imagenes/LogosMini/IHA.png" width="170" height="100px"></a></div>
         </div>
+    </div>
+
 
 </main>
 <?php

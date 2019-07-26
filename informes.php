@@ -6,7 +6,7 @@ include("config.php");
 
 <!-- AQUI EMPIEZA EL CUERPO DE LA PÁGINA -->
 
-<body>
+<body id="bodyPages">
 	<?php
 	/*ENCABEZADO DE LA PÁGINA*/
 	include("header.php");
@@ -15,16 +15,16 @@ include("config.php");
 	?>
 
 
-	<main class="detalle">
+	<main class="detalle back-white">
 		<div class="breadcrumb-class">
 			Está en:&nbsp;<a href=<?php echo $cdiac;?> target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">DE INTERÉS</a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Informes</b>
 		</div>
-		<div id="corpopubli">
-			<a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/corpocaldas.png" width="250"></a>
-		</div>
+        <div class="corpoenlaces" >
+            <a href=<?php echo $corpocaldas; ?> target="_blank"><img src="imagenes/Corpologo.png" width="200"></a>
+        </div>
+        <br>
 		<div id="publicaciones"><br><br>
-			<strong><h3> INFORMES </h3></strong>
-			<h4>---------------------------------------------------------------------------------------------</h4><br>
+			<h3 class="titulo">INFORMES</h3><br><br>
 			<h4><a href="http://cdiac.manizales.unal.edu.co/inicio/informes/INFORME_GENERAL_UMBRALES.pdf" title="Opens external link in new window" target="_blank" class="external-link-new-window">INFORME DE AVANCE: UMBRALES PRELIMINARES PARA LA ACTIVACIÓN DEL SAT PARA LAS CUENCAS QUEBRADA EL GUAMO, OLIVARES Y MANIZALES</a></h4><br>
 		</div>
 	</main>

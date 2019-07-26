@@ -214,7 +214,6 @@ ul.dropdown-menu a:hover, ul.dropdown-menu a:active, ul.dropdown-menu a:focus {
   color: white;
 }
 
-
 #unalTop {
   position: relative;
   z-index: 3;
@@ -1127,9 +1126,6 @@ footer .logos {
 }
 .corpoenlaces{
 float:right;
-margin-right: -1400px;
-margin-top: 20px;  
-width: 700px;
 }
 .pagenlaces{
   float:right;

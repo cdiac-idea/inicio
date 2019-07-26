@@ -22,16 +22,16 @@
 <div>
  <main class="detalle">
 
-     <div class="panel-body">
+     <div class="banner container-fluid">
 
         <a href="http://www.corpocaldas.gov.co/" target="_blank" >
 
-               <img onmouseover="this.src='imagenes/img_banner2.png';" onmouseout="this.src='imagenes/img_banner.png';" src="imagenes/img_banner.png"  alt="Corpocaldas" style=" top:23em;" class="img-rounded"  class="hidden-print"/>
+               <img onmouseover="this.src='imagenes/img_banner2.png';" onmouseout="this.src='imagenes/img_banner.png';" src="imagenes/img_banner.png"  alt="Corpocaldas" style=" top:20em;" class="img-rounded"  class="hidden-print"/>
 
         </a>
         <a href="http://cdiac.manizales.unal.edu.co/indicadores/public/index" target="_blank" >
 
-               <img onmouseover="this.src='imagenes/principio2.png';" onmouseout="this.src='imagenes/principio.png';" src="imagenes/principio.png" alt="Sistema de indicadores ambientales" class="img-rounded" style="top:32em;" class="hidden-print"/>
+               <img onmouseover="this.src='imagenes/principio2.png';" onmouseout="this.src='imagenes/principio.png';" src="imagenes/principio.png" alt="Sistema de indicadores ambientales" class="img-rounded" style="top:28em;" class="hidden-print"/>
 
         </a>
 
